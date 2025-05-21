@@ -35,7 +35,7 @@
    &gresc   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp MINUS    &kp EQUAL
    &kp BSPC &mt LCTRL R &mt LGUI S &mt LALT N &mt LSHFT D &kp B   &kp COMMA &mt RSHFT A  &mt RALT E     &mt RGUI I   &mt RCTRL H &kp J
    &lt 2 PRINTSCREEN &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp BACKSLASH
-                  &lt 2 TAB &lt 1 SPACE &kp RET   &sk LSHFT &kp T &mo 2
+                  &lt 1 TAB &lt 2 SPACE &kp RET   &sk LSHFT &kp T &mo 2
                         >;
                 };
                 lower_layer {
