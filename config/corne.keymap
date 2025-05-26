@@ -74,8 +74,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &bt BT_SEL 5 &bt BT_CLR       &mkp MB3 &mkp MB1 &mmv MOVE_UP  &mkp MB2 &msc SCRL_UP &bootloader
-   &trans &out OUT_TOG     &bootloader     &kp N3     &kp N4     &kp N5    &mkp MB4  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_DOWN &kp TILDE
+   &trans &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &bt BT_SEL 5        &mkp MB3 &mkp MB1 &mmv MOVE_UP  &mkp MB2 &msc SCRL_UP &bootloader
+   &trans &out OUT_TOG     &bootloader      &bt BT_CLR    &kp N4     &kp N5    &mkp MB4  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_DOWN &kp TILDE
    &trans &kp N6     &kp N7     &kp N8     &kp N9     &kp N0    &mkp MB5 &msc SCRL_LEFT  &mkp MB5 &msc SCRL_RIGHT &kp RPAR &kp BSPC
                              &trans &trans   &trans   &trans   &trans    &trans
                         >;
