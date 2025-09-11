@@ -36,8 +36,8 @@
                         bindings = <
    &gresc   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp MINUS    &kp EQUAL
    &kp BSPC &mt LCTRL R &mt LGUI S &mt LALT N &mt LSHFT D &kp B   &kp COMMA &mt RSHFT A  &mt RALT E     &mt RGUI I   &mt RCTRL H &kp J
-   &lt 2 PRINTSCREEN &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp BACKSLASH
-                  &lt 1 TAB &kp SPACE &lt 2 RET   &sk LSHFT &kp T &mo 3
+   &kp RET &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp BACKSLASH
+                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &mo 3
                         >;
                 };
                 lower_layer {
@@ -79,6 +79,6 @@
    &trans &kp N0     &kp N9     &kp N8     &kp N7     &kp N6    &mkp MB5 &msc SCRL_LEFT  &mkp MB5 &msc SCRL_RIGHT &kp RPAR &kp BSPC
                              &trans &trans   &trans   &trans   &trans    &trans
                         >;
-                };       
+                };
         };
 };
