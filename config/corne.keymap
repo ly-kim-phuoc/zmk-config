@@ -37,7 +37,7 @@
    &kp ESC   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp MINUS    &kp EQUAL
    &kp BSPC &mt LCTRL R &mt LGUI S &mt LALT N &mt LSHFT D &kp B   &kp COMMA &mt RSHFT A  &mt RALT E     &mt RGUI I   &mt RCTRL H &kp J
    &mo 3 &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp GRAVE
-                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &kp ENT
+                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &kp ENTER
                         >;
                 };
                 lower_layer {
