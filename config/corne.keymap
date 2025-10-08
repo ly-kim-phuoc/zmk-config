@@ -36,8 +36,8 @@
                         bindings = <
    &kp ESC   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp MINUS    &kp EQUAL
    &kp BSPC &mt LCTRL R &mt LGUI S &mt LALT N &mt LSHFT D &kp B   &kp COMMA &mt RSHFT A  &mt RALT E     &mt RGUI I   &mt RCTRL H &kp J
-   &kp ENTER &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp GRAVE
-                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &mo 3
+   &kp ENTER &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &to 4
+                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &lt 3 GRAVE
                         >;
                 };
                 lower_layer {
@@ -78,6 +78,20 @@
    &trans &out OUT_TOG     &bootloader      &bt BT_CLR    &kp N4     &kp N5    &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
    &trans &kp N0     &kp N9     &kp N8     &kp N7     &kp N6    &mkp MB5 &msc SCRL_LEFT  &mkp MB5 &msc SCRL_RIGHT &kp RPAR &kp BSPC
                              &trans &trans   &trans   &trans   &trans    &trans
+                        >;
+                };
+ 
+                qwerty_layer {
+// -----------------------------------------------------------------------------------------
+// |  ESC |  W  |  F  |  M  |  G  |  Z  |   |  /  |  .   |  Q  |  '  |  -  |   =  |
+// | BSPC |  R  |  S  |  N  |  D  |  B  |   |  ,  |  A   |  E  |  I  |  H  |  J   |
+// |  MO3 |  X  |  C  |  L  |  P  |  V  |   |  ;  |  U   |  O  |  Y  |  K  |   `  |
+//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                        bindings = <
+   &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp MINUS
+   &kp BSPC &mt LCTRL A &mt LGUI S &mt LALT D &mt LSHFT F &kp G   &kp H &mt RSHFT J  &mt RALT K     &mt RGUI L   &mt RCTRL SEMI &kp SQT
+   &kp ENTER &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp SLASH &to 0
+                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &lt 3 GRAVE
                         >;
                 };
         };
