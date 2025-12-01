@@ -81,5 +81,18 @@
                         >;
                 };
  
+                qwerty_layer {
+// -----------------------------------------------------------------------------------------
+// |  ESC |  W  |  F  |  M  |  G  |  Z  |   |  /  |  .   |  Q  |  '  |  -  |   =  |
+// | BSPC |  R  |  S  |  N  |  D  |  B  |   |  ,  |  A   |  E  |  I  |  H  |  J   |
+// |  MO3 |  X  |  C  |  L  |  P  |  V  |   |  ;  |  U   |  O  |  Y  |  K  |   `  |
+//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                        bindings = <
+   &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp LEFT_BRACKET
+   &kp BSPC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp J &kp SEMI
+   &kp ENTER &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &to 0
+                  &kp C &kp V &kp TAB   &kp M &kp N &kp M
+                        >;
+                };
         };
 };
