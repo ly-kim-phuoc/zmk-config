@@ -31,13 +31,13 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC |  W  |  F  |  M  |  G  |  Z  |   |  /  |  .   |  Q  |  '  |  -  |   =  |
 // | BSPC |  R  |  S  |  N  |  D  |  B  |   |  ,  |  A   |  E  |  I  |  H  |  J   |
-// |  MO3 |  X  |  C  |  L  |  P  |  V  |   |  ;  |  U   |  O  |  Y  |  K  |   `  |
+// |  ENT |  X  |  C  |  L  |  P  |  V  |   |  ;  |  U   |  O  |  Y  |  K  |   `  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp ESC   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp MINUS    &kp EQUAL
-   &kp BSPC &mt LGUI R &mt LALT S &mt LSHFT N &mt LCTRL D &kp B   &kp COMMA &mt RCTRL A  &mt RSHFT E     &mt RALT I   &mt RGUI H &kp J
+   &kp BSPC &mt LGUI R &mt LALT S &mt LSHFT N &mt LCTRL D &kp B   &kp COMMA &mt RCTRL A  &mt RSHFT E     &mt RALT I   &mt RGUI H &kp BSLH
    &kp ENTER &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &to 4
-                  &lt 1 TAB &kp SPACE &mo 2   &sk LSHFT &kp T &lt 3 GRAVE
+                  &lt 1 TAB &kp SPACE &mo 2   &kp J &kp T &lt 3 GRAVE
                         >;
                 };
                 lower_layer {
