@@ -27,6 +27,7 @@
 / {
     macros {
         dm: dm {
+            label = "Dynamic_Macro";
             compatible = "zmk,behavior-dynamic-macro";
             #binding-cells = <1>;
         };
