@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nickconway
-      url-base: https://github.com/nickconway
+    - name: ly-kim-phuoc
+      url-base: https://github.com/ly-kim-phuoc  # Your GitHub URL
   projects:
     - name: zmk
-      remote: nickconway
-      revision: dynamic-macro
+      remote: ly-kim-phuoc                    # Points to your fork
+      revision: dynamic-macro                 # The branch we just fixed
       import: app/west.yml
   self:
     path: config
