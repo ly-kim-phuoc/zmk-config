@@ -54,7 +54,7 @@
                         bindings = <
    &kp ESC   &kp W &kp F &kp M &kp G &kp Z   &kp FSLH &kp DOT  &kp Q     &kp SQT   &kp GRAVE    &caps_word
    &kp BSPC &mt LGUI R &mt LALT S &mt LSHFT N &mt LCTRL D &kp B   &kp COMMA &mt RCTRL A  &mt RSHFT E     &mt RALT I   &mt RGUI H &kp EQUAL
-   &kp ENTER &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp BSLH
+   &to 4 &kp X &kp C &kp L &kp P &kp V   &kp SEMI &kp U  &kp O &kp Y &kp K &kp BSLH
                   &lt 1 TAB &kp SPACE &lt 2 ENTER   &kp J &kp T &lt 3 MINUS
                         >;
                 };
